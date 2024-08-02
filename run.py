@@ -68,9 +68,8 @@ if __name__ == "__main__":
 		 |   | \    `-'  | \ `"/  \  ) /  (_(=)_)  |  _( )_  ||  | \ `'   /|  _( )_  | 
 		 |   |  \       /   '. \_/``".'    (_I_)   \ (_ o _) /|  |  \    / \ (_ o _) / 
 		 '---'   `-...-'      '-----'      '---'    '.(_,_).' `--'   `'-'   '.(_,_).'  
-                                                                               
-                                                                                                                                                                    	                                             
- 	                  Isotaka Nobomaro ====> Locale: MA ======> IG: isotaka.nobomaro
+                                                                                                                                                                                                                 	                                             
+ 	                  Isotaka Nobomaro ====> Locale: EL-Hajeb ======> IG: isotaka.nobomaro
     """
     print_banner(banner)
 
