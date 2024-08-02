@@ -116,7 +116,7 @@ Once you have set up the environment and installed the required libraries, you c
    - Port Scan: Scan default ports (1-1024).
    - Vulnerability Scan: Check for known vulnerabilities.
    - Comprehensive Scan: Perform a detailed scan including all ports and service detection.
-   - Custom Port Range Scan: Specify a custom range of ports to scan.
+   - Custom Port Range Scan: Specify a custom range of ports to scan (e.g., 1-1000).
    - Exit: Exit to the second IP / Exit the script.
 
 5. View Results: Based on your choice, the script will perform the selected scan and display the results.
