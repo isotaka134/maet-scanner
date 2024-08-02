@@ -23,9 +23,10 @@ Setup
 1. Clone the repository (or download the script):
    
    git clone https://github.com/isotaka134/maet-scanner.git
+
    cd maet-scanner
 
-2. Installation
+3. Installation
  
    * Install the required libraries:
 	
