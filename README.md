@@ -69,7 +69,7 @@ Once you have set up the environment and installed the required libraries, you c
                  '---'   `-...-'      '-----'      '---'    '.(_,_).' `--'   `'-'   '.(_,_).'
 
                                                                                                                                                                                                      
-                        Isotaka Nobomaro ====> Locale: MA ======> IG: isotaka.nobomaro
+                        Isotaka Nobomaro ====>  EL-HAJEB ======> IG: isotaka.nobomaro
 
    Enter the domain: example.com
 
