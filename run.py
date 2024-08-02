@@ -3,14 +3,14 @@ import nmap
 from dnsdumpster.DNSDumpsterAPI import DNSDumpsterAPI
 from colorama import Fore, Style, init
 
-# Initialize colorama
+
 init(autoreset=True)
 
 def print_banner(message, width=80):
     banner_lines = message.strip().split('\n')
     centered_banner = "\n".join([line.center(width) for line in banner_lines])
     print(centered_banner)
-    print("=" * width)  # Add a break line after the banner
+    print("=" * width)  
 
 def get_real_ip(domain):
     try:
@@ -99,7 +99,7 @@ if __name__ == "__main__":
                 print(f"{Fore.BLUE}5. Exit")
                 choice = input("Enter your choice (1-5): ")
 
-                print("=" * 40)  # Print a line before the results
+                print("=" * 40)  
 
                 if choice == '1':
                     print(f"Scanning ports for IP {ip}:")
@@ -175,7 +175,7 @@ if __name__ == "__main__":
 
                 else:
                     print(f"{Fore.RED}Invalid choice. Please select a valid option.")
-                    print("=" * 40)  # Line for clarity
+                    print("=" * 40)  
 
     else:
         print(f"No IP addresses found for {domain}")
