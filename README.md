@@ -38,4 +38,4 @@ Setup
 
 3. Run the script
 
-    python scanner.py	
+    python run.py	
