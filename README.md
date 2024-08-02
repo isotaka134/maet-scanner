@@ -28,10 +28,12 @@ Setup
 2. Installation
  
    * Install the required libraries:
-	python install_requirements.py
+	
+ python install_requirements.py
     
    * You can manually install the required libraries with:
-	pip install -r requirements.txt
+	
+ pip install -r requirements.txt
 
 3. Run the script
 
