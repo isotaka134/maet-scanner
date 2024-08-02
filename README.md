@@ -38,4 +38,87 @@ Setup
 
 3. Run the script
 
-    python run.py	
+    python run.py
+
+   
+Usage
+
+Once you have set up the environment and installed the required libraries, you can run the `maet` scanner script using the following steps:
+
+1. Run the Script:
+
+   Open a terminal or command prompt, navigate to the directory containing the `run.py` script, and execute:
+
+   
+   python run.py
+  
+
+2. Follow the Prompts:
+
+   The script will prompt you for a domain and then present you with several scanning options. Here’s an example of the interactive session:
+ 
+```	
+ .-./`)    .-'''-.     ,-----.  ,---------.    ____    .--.   .--.     ____
+                \ .-.')  / _     \  .'  .-,  '.\          \ .'  __ `. |  | _/  /    .'  __ `.
+                / `-' \ (`' )/`--' / ,-.|  \ _ \`--.  ,---'/   '  \  \| (`' ) /    /   '  \  \
+                 `-'`"`(_ o _).   ;  \  '_ /  | :  |   \   |___|  /  ||(_ ()_)     |___|  /  |
+                 .---.  (_,_). '. |  _`,/ \ _/  |  :_ _:      _.-`   || (_,_)   __    _.-`   |
+                 |   | .---.  \  :: (  '\_/ \   ;  (_I_)   .'   _    ||  |\ \  |  |.'   _    |
+                 |   | \    `-'  | \ `"/  \  ) /  (_(=)_)  |  _( )_  ||  | \ `'   /|  _( )_  |
+                 |   |  \       /   '. \_/``".'    (_I_)   \ (_ o _) /|  |  \    / \ (_ o _) /
+                 '---'   `-...-'      '-----'      '---'    '.(_,_).' `--'   `'-'   '.(_,_).'
+
+                                                                                                                                                                                                     
+                        Isotaka Nobomaro ====> Locale: MA ======> IG: isotaka.nobomaro
+
+   Enter the domain: example.com
+
+   Possible real IP addresses and their locations for example.com:
+   [*] IP: 93.184.216.34
+   [*] Location: Los Angeles, California, US
+   [*] Organization: Example Organization
+   [*] Coordinates: 34.0522,-118.2437
+   ----------------------------------------
+
+   Select a scanning option for IP 93.184.216.34:
+   1. Port Scan (Default: ports 1-1024)
+   2. Vulnerability Scan
+   3. Comprehensive Scan (All ports, OS detection, service detection, etc.)
+   4. Custom Port Range Scan
+   5. Exit
+
+   Enter your choice (1-5): 1
+
+   Scanning ports for IP 93.184.216.34:
+   [*] Port: 80    State: open    Service: http    Version: Apache 2.4.41
+   [*] Port: 443   State: open    Service: https   Version: Apache 2.4.41
+   ========================================
+
+   Select a scanning option for IP 93.184.216.34:
+   1. Port Scan (Default: ports 1-1024)
+   2. Vulnerability Scan
+   3. Comprehensive Scan (All ports, OS detection, service detection, etc.)
+   4. Custom Port Range Scan
+   5. Exit
+
+   Enter your choice (1-5): 5
+```
+
+ Explanation:
+
+1. Run the Script: Execute the script using Python. Make sure you're in the directory where `run.py` is located.
+
+2. Enter Domain : You will be prompted to enter the domain you want to scan.
+
+3. View IP Details: The script will display IP addresses associated with the domain along with their geographical location and organization details.
+
+4. Choose Scanning Option: You can select from the following options:
+   - Port Scan: Scan default ports (1-1024).
+   - Vulnerability Scan: Check for known vulnerabilities.
+   - Comprehensive Scan: Perform a detailed scan including all ports and service detection.
+   - Custom Port Range Scan: Specify a custom range of ports to scan.
+   - Exit: Exit to the second IP / Exit the script.
+
+5. View Results: Based on your choice, the script will perform the selected scan and display the results.
+
+
