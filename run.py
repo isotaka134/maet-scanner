@@ -70,7 +70,7 @@ if __name__ == "__main__":
 		 '---'   `-...-'      '-----'      '---'    '.(_,_).' `--'   `'-'   '.(_,_).'  
                                                                                
                                                                                                                                                                     	                                             
- 	this tool created by : Isotaka Nobomaro ====> Locale: MA ======> IG: isotaka.nobomaro
+ 	                  Isotaka Nobomaro ====> Locale: MA ======> IG: isotaka.nobomaro
     """
     print_banner(banner)
 
