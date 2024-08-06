@@ -1,11 +1,11 @@
 ma'et Scanner
 
-Overview
+## Overview
 
 The ma'et Scanner is a Python script designed for various network scanning tasks. It can perform domain-to-IP resolution, IP location lookups, port scanning, 
 vulnerability scanning, and comprehensive network analysis.
 
-Features
+## Features
 
 - Domain to IP Resolution: Find real IP addresses associated with a domain.
 - IP Location Lookup: Get geographic and organizational information about IP addresses.
@@ -14,11 +14,11 @@ Features
 - Comprehensive Scan: Perform an in-depth scan including all ports, OS detection, and service detection.
 - Custom Port Range: Allows custom port range specification for scanning.
 
-Prerequisites
+## Prerequisites
 
 Ensure you have Python 3 installed. The script also requires several Python libraries. You can install them using the provided `requirements.txt` file.
 
-Setup
+## Setup
 
 1. Clone the repository (or download the script):
    
@@ -41,7 +41,7 @@ Setup
     python run.py
 
    
-Usage
+## Usage
 
 Once you have set up the environment and installed the required libraries, you can run the `maet` scanner script using the following steps:
 
@@ -104,7 +104,7 @@ Once you have set up the environment and installed the required libraries, you c
    Enter your choice (1-5): 5
 ```
 
- Explanation:
+## Explanation:
 
 1. Run the Script: Execute the script using Python. Make sure you're in the directory where `run.py` is located.
 
