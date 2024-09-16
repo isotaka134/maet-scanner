@@ -58,7 +58,7 @@ Once you have set up the environment and installed the required libraries, you c
    The script will prompt you for a domain and then present you with several scanning options. Here’s an example of the interactive session:
  
 ```	
- .-./`)    .-'''-.     ,-----.  ,---------.    ____    .--.   .--.     ____
+		 .-./`)    .-'''-.     ,-----.  ,---------.    ____    .--.   .--.     ____
                 \ .-.')  / _     \  .'  .-,  '.\          \ .'  __ `. |  | _/  /    .'  __ `.
                 / `-' \ (`' )/`--' / ,-.|  \ _ \`--.  ,---'/   '  \  \| (`' ) /    /   '  \  \
                  `-'`"`(_ o _).   ;  \  '_ /  | :  |   \   |___|  /  ||(_ ()_)     |___|  /  |
